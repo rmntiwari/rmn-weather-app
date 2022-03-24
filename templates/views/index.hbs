@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="../css/style.css"/>
+        
+    </head>
+    <body>
+        <div class="main-content">
+                 {{>header}}                
+                <h5 id="siteinfo"> Use this site to get your weather</h5>
+                <form>
+                    <input type="text" placeholder="location address"/>
+                    <button>Search</button>
+                </form>
+                <p id="loading">from javascript</p> 
+                <p id="forcantinfo"></p>
+
+        </div>
+       <script src="../js/weatherScript.js"></script>
+        {{>footer}} 
+    </body>
+</html>

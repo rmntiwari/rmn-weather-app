@@ -1,0 +1,20 @@
+*{
+    margin:0;padding:0
+}
+body{width:60%;border:1px solid #eee;margin:0 auto;font-family: Arial, Helvetica, sans-serif; display:flex;flex-direction:column;min-height:100vh;}
+footer{padding:16px 0; margin-top:16px; border-top:1px solid #ddd;}
+header{
+    margin-top:16px;
+    margin-bottom:48px;
+}
+h1{color:#4d4d4d;}
+header a { color:#888; margin-right:16px;text-decoration: none;}
+
+.main-content{
+    flex-grow: 1;
+}
+
+#siteinfo{margin-bottom:10px;}
+input{padding:5px;}
+button{padding:5px;border-radius: 2px; background-color: blue;color:#fff;border:none;}
+#loading, #forcantinfo{margin-top:10px;font-size: 14px;}
