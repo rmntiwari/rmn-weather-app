@@ -18,7 +18,7 @@ button.addEventListener('click', (e)=>{
     const searchtext = document.querySelector('input[type="text"]').value;
     if(searchtext !=''){
         
-        fetch("http://localhost:4000/weather/?address=" + searchtext).then((response)=>{
+        fetch("/weather/?address=" + searchtext).then((response)=>{
 
             response.json().then((data)=>{
 

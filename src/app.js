@@ -11,7 +11,7 @@ const forcast = require('./utils/forcast');
 //define port
 const env = require('dotenv');
 env.config();
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 
 //configure static public directory
@@ -90,6 +90,6 @@ app.get('*',(req,res)=>{
 })
 
 
-app.listen(PORT,()=>{
-    console.log("server running on port " +PORT);
+app.listen(port,()=>{
+    console.log("server running on port " +port);
 })
